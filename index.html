@@ -1,0 +1,122 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Plymouth's only dedicated yoga studio with a full schedule of yoga classes, yoga workshops and some wonderful yoga teachers">
+    <meta name="author" content="Joanna Thyssen, Yoga Loft">
+    <meta http-equiv="Content-Language" content="en" />
+
+
+    <title>Welcome to the Yoga Loft in Plymouth, Devon</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/jumbotron.min.css">
+    <link rel="stylesheet" href="css/yogaloft.css">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <img src="img/lotus.png" alt="Yoga Loft lotus" />
+            the yoga loft
+          </a>
+        </div>
+
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav pull-right">
+            <li class="active"><a href="index.html">home</a></li>
+            <li><a href="timetable.html">timetable</a></li>
+            <li><a href="workshops.html">workshops</a></li>
+            <li><a href="yoga.html">yoga</a></li>
+            <li class="dropdown">
+              <a href="teachers.html" class="dropdown-toggle" data-toggle="dropdown">teachers <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="teachers.html#Sannyasi-Atmamantra">Sannyasi Atmamantra</a></li>
+                <li><a href="teachers.html#Venita-Botha">Venita Botha</a></li>
+                <li><a href="teachers.html#Justin-Dalton">Justin Dalton</a></li>
+                <li><a href="teachers.html#Charlotte-Levy">Charlotte Levy</a></li>
+                <li><a href="teachers.html#Lee-Miller">Lee Miller</a></li>
+                <li><a href="teachers.html#Steve-Osman">Steve Osman</a></li>
+                <li><a href="teachers.html#Beccy-Rogers">Beccy Rogers</a></li>
+                <li><a href="teachers.html#Nic-Sharpe">Nic Sharpe</a></li>
+                <li><a href="teachers.html#Joanna-Thyssen">Joanna Thyssen</a></li>
+                <li><a href="teachers.html#Gavin-Tilstone">Gavin Tilstone</a></li>
+              </ul>
+            </li>
+            <li><a href="photos.html">photos</a></li>
+            <li><a href="map.html">find us</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="jumbotron">
+        <div id="slides">
+          <div>
+            <img src="img/Yoga/crescent-moon-lunge.jpg" alt="Yoga students in a crescent moon lunge." />
+          </div>
+          <div>
+            <img src="img/Yoga/meditation.jpg" alt="Yoga students in a meditative moment." />
+          </div>
+          <div>
+            <img src="img/Yoga/side-stretch-warm-up.jpg" alt="Yoga students doing side stretches as part of a warm up." />
+          </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+          <h2>Welcome to the Yoga Loft in Plymouth, Devon!</h2>
+          <p>The studio has been carefully designed to offer a tranquil space in which to take off your shoes and enjoy the <a href="yoga.html">practice of yoga</a>. 'A beautiful practice deserves a beautiful space' has been the mantra behind the creation of the studio.</p>
+          <p>We offer a full <a href="timetable.html">timetable of daily classes</a> in a range of yoga styles. We have classes for all levels of experience: from complete beginners to more experienced practitioners.</p>
+          <p>We look forward to seeing you soon. Namaste</p>
+      </div>
+
+      <hr>
+
+      <footer>
+        <div class="row">
+          <div class="col-xs-4">
+            <p>&copy; Yoga Loft 2014</p>
+          </div>
+          <div class="col-xs-8">
+            <p class="pull-right">11 Whimple Street, Plymouth, PL1 2DH | Tel 01752 254724 | <a href="mailto:info@YogaLoft.co.uk">Contact us</a></p>
+          </div>
+        </div>
+        
+      </footer>
+    </div> <!-- /container -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#slides > div:gt(0)").hide();
+            setInterval(function () {
+                $('#slides > div:first').fadeOut(1000).next().fadeIn(1000).end().appendTo('#slides');
+            }, 3000);
+        });
+    </script>
+  </body>
+</html>

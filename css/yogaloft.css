@@ -1,0 +1,84 @@
+
+/*----------------------------------------------------------
+background image
+html {
+	background: url(../img/bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+----------------------------------------------------------*/
+
+/*----------------------------------------------------------
+navbar color
+.navbar{
+	background-color: #694;
+}
+----------------------------------------------------------*/
+
+/*----------------------------------------------------------
+slideshow
+----------------------------------------------------------*/
+#slides {
+    margin: 30px auto 0 auto;
+    position: relative; 
+    width: 680px; 
+    height: 340px; 
+    padding: 10px;
+    box-shadow: 0 0 20px #ddd;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#slides > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+/*----------------------------------------------------------
+photos
+----------------------------------------------------------*/
+div.photo {
+    margin: 30px auto 0 auto;
+    position: relative;
+    padding: 10px;
+    box-shadow: 0 0 20px #ddd;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+img.photo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+.album-cover-container {
+    float: left;
+    margin: 10px;
+}
+
+/*----------------------------------------------------------
+teacher profiles
+----------------------------------------------------------*/
+.teacher-bio img {
+    float: left;
+    margin: 60px 10px 100px 0;
+}
+#teacher-list li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#teacher-list blockquote {
+    font-size: small;
+}
+.img-thumbnail:after {
+ clear:both;
+ *zoom:1;
+ height:0;
+ visibility: hidden;
+ display:block;
+}
