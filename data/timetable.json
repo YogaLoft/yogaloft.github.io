@@ -1,0 +1,86 @@
+[
+  {
+    "Day": "Monday",
+    "Start": "11:00",
+    "End": "12:30",
+    "Teacher": "Jo",
+    "Title": "Community Class *"
+  },
+  {
+    "Day": "Monday",
+    "Start": "19:30",
+    "End": "21:00",
+    "Teacher": "Jo",
+    "Title": "Mixed Ability"
+  },
+  {
+    "Day": "Tuesday",
+    "Start": "12:30",
+    "End": "13:30",
+    "Teacher": "Jo",
+    "Title": "Hatha"
+  },
+  {
+    "Day": "Tuesday",
+    "Start": "17:45",
+    "End": "19:15",
+    "Teacher": "Lee",
+    "Title": "Ashtanga Vinyasa"
+  },
+  {
+    "Day": "Wednesday",
+    "Start": "17:45",
+    "End": "19:15",
+    "Teacher": "Charlotte",
+    "Title": "Vinyasa Flow"
+  },
+  {
+    "Day": "Wednesday",
+    "Start": "19:30",
+    "End": "21:00",
+    "Teacher": "Gavin",
+    "Title": "Iyengar"
+  },
+  {
+    "Day": "Thursday",
+    "Start": "10:30",
+    "End": "12:00",
+    "Teacher": "Steve",
+    "Title": "Ashtanga"
+  },
+  {
+    "Day": "Thursday",
+    "Start": "17:45",
+    "End": "19:15",
+    "Teacher": "Jo",
+    "Title": "Beginners"
+  },
+  {
+    "Day": "Thursday",
+    "Start": "19:30",
+    "End": "21:30",
+    "Teacher": "Nic",
+    "Title": "Hatha"
+  },
+  {
+    "Day": "Friday",
+    "Start": "10:00",
+    "End": "11:30",
+    "Teacher": "Charlotte",
+    "Title": "Vinyasa Flow"
+  },
+  {
+    "Day": "Friday",
+    "Start": "17:45",
+    "End": "19:15",
+    "Teacher": "Lee",
+    "Title": "Ashtanga Vinyasa"
+  },
+  {
+    "Day": "Saturday",
+    "Start": "09:30",
+    "End": "11:00",
+    "Teacher": "Venita",
+    "Title": "Hatha"
+  }
+]
