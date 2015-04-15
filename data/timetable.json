@@ -83,4 +83,11 @@
     "Teacher": "Venita",
     "Title": "Hatha"
   }
+  {
+    "Day": "Saturday",
+    "Start": "16:00",
+    "End": "17:30",
+    "Teacher": "Jules",
+    "Title": "Vinyasa Flow"
+  }
 ]
