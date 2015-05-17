@@ -29,6 +29,20 @@
   },
   {
     "Day": "Wednesday",
+    "Start": "14:00",
+    "End": "15:30",
+    "Teacher": "Jules",
+    "Title": "Vinyasa Flow Yoga for Seniors"
+  },
+  {
+    "Day": "Wednesday",
+    "Start": "16:30",
+    "End": "17:30",
+    "Teacher": "Jules",
+    "Title": "Vinyasa Flow for Children"
+  },
+  {
+    "Day": "Wednesday",
     "Start": "17:45",
     "End": "19:15",
     "Teacher": "Charlotte",
@@ -43,10 +57,10 @@
   },
   {
     "Day": "Thursday",
-    "Start": "10:30",
-    "End": "12:00",
-    "Teacher": "Steve",
-    "Title": "Ashtanga"
+    "Start": "8:30",
+    "End": "9:30",
+    "Teacher": "Jules",
+    "Title": "Vinyasa Flow, wake up for summer"
   },
   {
     "Day": "Thursday",
