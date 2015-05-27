@@ -1,47 +1,90 @@
 [
   {
-    "Id": "Shilpa",
-    "Forename": "Shilpa",
-    "Surname": "Kulkarni"
+    "name": "Charlotte Levy",
+    "nick": "Charlotte",
+    "photo": "images/teachers/Charlotte-Levy.jpg",
+    "bio": "data/bios/Charlotte-Levy.html",
+    "isActive": true,
+    "calendar": {
+      "id": "yogaloft.co.uk_5ukg308svgr5uvo44gsm8ukn7g@group.calendar.google.com",
+      "textColor": "#853104"
+    }
   },
   {
-    "Id": "Venita",
-    "Forename": "Venita",
-    "Surname": "Botha"
+    "name": "Gavin Tilstone",
+    "nick": "Gavin",
+    "photo": "images/teachers/Gavin-Tilstone.jpg",
+    "bio": "data/bios/Gavin-Tilstone.html",
+    "isActive": true,
+    "calendar": {
+      "id": "yogaloft.co.uk_g8nhkv0ddp2v6irl0ddp9mbncg@group.calendar.google.com",
+      "textColor": "#5F6B02"
+    }
   },
   {
-    "Id": "Jules",
-    "Forename": "Jules",
-    "Surname": "Laville"
+    "name": "Lee Miller",
+    "nick": "Lee",
+    "photo": "images/teachers/Lee-Miller.jpg",
+    "bio": "data/bios/Lee-Miller.html",
+    "isActive": true,
+    "calendar": {
+      "id": "yogaloft.co.uk_lr1evfam5g3pgjqd2n6h906av8@group.calendar.google.com",
+      "textColor": "#BE6D00"
+    }
   },
   {
-    "Id": "Charlotte",
-    "Forename": "Charlotte",
-    "Surname": "Levy"
+    "name": "Nic Sharpe",
+    "nick": "Nic",
+    "photo": "images/teachers/Nic-Sharpe.jpg",
+    "bio": "data/bios/Nic-Sharpe.html",
+    "isActive": true,
+    "calendar": {
+      "id": "yogaloft.co.uk_k5c67s04debpmr1559oli0eeak@group.calendar.google.com",
+      "textColor": "#2952A3"
+    }
   },
   {
-    "Id": "Lee",
-    "Forename": "Lee",
-    "Surname": "Miller"
+    "name": "Joanna Thyssen",
+    "nick": "Jo",
+    "photo": "images/teachers/Joanna-Thyssen.jpg",
+    "bio": "data/bios/Joanna-Thyssen.html",
+    "isActive": true,
+    "calendar": {
+      "id": "yogaloft.co.uk_ljmhdl898hd3i4mmj4r4sttjf8@group.calendar.google.com",
+      "textColor": "#7A367A"
+    }
   },
   {
-    "Id": "Steve",
-    "Forename": "Steve",
-    "Surname": "Osman"
+    "name": "Jules Laville",
+    "nick": "Jules",
+    "photo": "images/teachers/Jules-Laville.jpg",
+    "bio": "data/bios/Jules-Laville.html",
+    "isActive": true,
+    "calendar": {
+      "id": "yogaloft.co.uk_979akm05t1lseoc4ar1al2pdhg@group.calendar.google.com",
+      "textColor": "#875509"
+    }
   },
   {
-    "Id": "Nic",
-    "Forename": "Nic",
-    "Surname": "Sharpe"
+    "name": "Shilpa Kulkarni",
+    "nick": "Shilpa",
+    "photo": "images/teachers/Shilpa-Kulkarni.jpg",
+    "bio": "data/bios/Shilpa-Kulkarni.html",
+    "isActive": true,
+    "calendar": {
+      "id": "yogaloft.co.uk_24kl4d5ijk438hnq0qkg7m2dgo@group.calendar.google.com",
+      "textColor": "#8D6F47"
+    }
   },
   {
-    "Id": "Jo",
-    "Forename": "Joanna",
-    "Surname": "Thyssen"
-  },
-  {
-    "Id": "Gavin",
-    "Forename": "Gavin",
-    "Surname": "Tilstone"
+    "name": "Venita Botha",
+    "nick": "Venita",
+    "photo": "images/teachers/Venita-Botha.jpg",
+    "bio": "data/bios/Venita-Botha.html",
+    "isActive": true,
+    "calendar": {
+      "id": "yogaloft.co.uk_ndf8f8ffd98b7ks10apeie2a9k@group.calendar.google.com",
+      "textColor": "#125A12"
+    }
   }
 ]
