@@ -3,6 +3,6 @@
     var options = { center: coordinates, zoom: 15, mapTypeId: google.maps.MapTypeId.ROADMAP };
     var map = new google.maps.Map(document.getElementById("map_canvas"), options);
     var marker = new google.maps.Marker({ title: 'The Yoga Loft', position: coordinates, map: map, icon: 'images/marker.png', shadow: 'images/shadow.png' });
-    var bubble = new google.maps.InfoWindow({ content: '<div style="width: 280px;"><p><img src="img/cafe-rouge.jpg" style="float: left; margin-right: 20px;" /><strong>The Yoga Loft</strong><br />11 Whimple Street<br />Plymouth PL1 2DH</p></div>' });
+    var bubble = new google.maps.InfoWindow({ content: '<div style="width: 280px;"><p><img src="images/cafe-rouge.jpg" style="float: left; margin-right: 20px;" /><strong>The Yoga Loft</strong><br />11 Whimple Street<br />Plymouth PL1 2DH</p></div>' });
     google.maps.event.addListener(marker, 'click', function() { bubble.open(map, marker); });
   }</script>
