@@ -1,0 +1,1 @@
+<ul id="teacher-list"> <li ng-repeat="teacher in teachers"> <a id="{{teacher.nick}}"></a> <div class="teacher-bio row"> <img ng-src="{{teacher.photo}}" alt="Profile photo of {{teacher.name}}" class="img-thumbnail" ng-show="teacher.photo"> <h3>{{teacher.name}}</h3> <div ng-include="teacher.bio"></div> </div> <div class="clear-fix"></div> </li> </ul>
